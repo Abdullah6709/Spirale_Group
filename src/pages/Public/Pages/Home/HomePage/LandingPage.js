@@ -109,7 +109,7 @@ function LandingPage() {
               alt={`Slide ${index + 1}`}
               sx={{
                 width: "100%",
-                height: "100%",
+                height: "101%",
                 objectFit: "cover",
                 filter: "brightness(0.7)",
               }}
@@ -122,7 +122,7 @@ function LandingPage() {
                 top: 0,
                 left: 0,
                 width: "100%",
-                height: "100%",
+                height: "101%",
                 background: "linear-gradient(to bottom right, rgba(0,0,0,0.4), rgba(0,0,0,0.6))",
                 zIndex: 1,
               }}

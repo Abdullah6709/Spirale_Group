@@ -42,15 +42,15 @@ const Map = ({ height = "400px", src }) => {
      <Box
   sx={{
     backdropFilter: "blur(6px)",
-    backgroundColor: "rgba(255, 255, 255, 0.08)",
+    // backgroundColor: "rgba(255, 255, 255, 0.08)",
     borderRadius: 3,
     overflow: "hidden",
-    border: "2px solid rgba(255,255,255,0.15)",
-    boxShadow: "0 8px 24px rgba(0,0,0,0.4)",
+    // border: "2px solid rgba(255,255,255,0.15)",
+   // boxShadow: "0 8px 24px rgba(0,0,0,0.4)",
     transition: "0.4s ease",
     "&:hover": {
       transform: "scale(1.01)",
-      boxShadow: "0 12px 30px rgba(0,0,0,0.5)",
+     // boxShadow: "0 12px 30px rgba(0,0,0,0.5)",
     },
   }}
 >
@@ -58,7 +58,7 @@ const Map = ({ height = "400px", src }) => {
     title="Google Map"
     width="100%"
     height={height}
-    style={{ border: 0 }}
+    // style={{ border: 0 }}
     loading="lazy"
     allowFullScreen
     referrerPolicy="no-referrer-when-downgrade"
