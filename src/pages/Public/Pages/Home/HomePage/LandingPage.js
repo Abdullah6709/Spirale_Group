@@ -101,7 +101,7 @@ function LandingPage() {
     <Box sx={{ width: "100%", position: "relative", overflow: "hidden" }}>
       <Slider {...settings}>
         {slides.map((slide, index) => (
-          <Box key={index} sx={{ position: "relative", height: "100vh" }}>
+          <Box key={index} sx={{ position: "relative", height:{xs:"60vh", sm:"100vh"}, }}>
             {/* Background Image */}
             <Box
               component="img"
